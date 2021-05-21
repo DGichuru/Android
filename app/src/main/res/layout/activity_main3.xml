@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="#F0F0F0"
+    tools:context=".MainActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+      <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+         <ImageView
+             android:id="@+id/pizzaImage"
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             android:layout_marginEnd="16dp"
+             android:src="@drawable/cafe_image">
+
+
+         </ImageView>
+         <TextView
+             android:id="@+id/pizzaTitle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Pepperoni Pizza"
+             android:layout_marginTop="20dp"
+             android:textSize="24sp"
+             android:textColor="#000000"
+             android:alpha="0.87"
+             android:layout_toEndOf="@id/pizzaImage">
+
+         </TextView>
+         <TextView
+             android:layout_marginTop="8dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toEndOf="@id/pizzaImage"
+             android:layout_below="@id/pizzaTitle"
+             android:textColor="#000000"
+             android:alpha="0.60"
+             android:text="Comes with mozzarella filled crusts">
+
+         </TextView>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingTop="8dp"
+          android:paddingBottom="8dp" >
+         <ImageView
+             android:id="@+id/pizzaImag"
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             android:layout_marginEnd="16dp"
+             android:paddingTop="10dp"
+             android:paddingBottom="10dp"
+             android:src="@drawable/cafe_image">
+
+
+         </ImageView>
+         <TextView
+             android:id="@+id/pizzaTitl"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Pepperoni Pizza"
+             android:layout_marginTop="20dp"
+             android:textSize="24sp"
+             android:textColor="#000000"
+             android:alpha="0.87"
+             android:layout_toEndOf="@id/pizzaImag">
+
+         </TextView>
+         <TextView
+             android:layout_marginTop="8dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toEndOf="@id/pizzaImag"
+             android:layout_below="@id/pizzaTitl"
+             android:textColor="#000000"
+             android:alpha="0.60"
+             android:text="Comes with mozzarella filled crusts">
+
+         </TextView>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+         <ImageView
+             android:id="@+id/pizzImage"
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             android:layout_marginEnd="16dp"
+             android:src="@drawable/cafe_image">
+
+
+         </ImageView>
+
+         <TextView
+             android:id="@+id/pizzTitle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:layout_toEndOf="@id/pizzImage"
+             android:alpha="0.87"
+             android:text="Pepperoni Pizza"
+             android:textColor="#000000"
+             android:textSize="24sp">
+
+         </TextView>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/pizzTitle"
+             android:layout_marginTop="8dp"
+             android:layout_toEndOf="@id/pizzImage"
+             android:alpha="0.60"
+             android:text="Comes with mozzarella filled crusts"
+             android:textColor="#000000">
+
+         </TextView>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingBottom="8dp"
+          android:paddingTop="8dp">
+         <ImageView
+             android:id="@+id/lemonImage"
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             android:layout_marginEnd="16dp"
+             android:src="@drawable/cafe_image">
+
+
+         </ImageView>
+         <TextView
+             android:id="@+id/lemonTitle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Pepperoni Pizza"
+             android:layout_marginTop="20dp"
+             android:textSize="24sp"
+             android:textColor="#000000"
+             android:alpha="0.87"
+             android:layout_toEndOf="@id/lemonImage">
+
+         </TextView>
+         <TextView
+             android:layout_marginTop="8dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toEndOf="@id/lemonImage"
+             android:layout_below="@id/lemonTitle"
+             android:textColor="#000000"
+             android:alpha="0.60"
+             android:text="Comes with mozzarella filled crusts">
+
+         </TextView>
+
+      </RelativeLayout>
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="64dp">
+         <ImageView
+             android:id="@+id/pudImage"
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             android:layout_marginEnd="16dp"
+             android:src="@drawable/cafe_image">
+
+
+         </ImageView>
+         <TextView
+             android:id="@+id/pudTitle"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Pepperoni Pizza"
+             android:layout_marginTop="20dp"
+             android:textSize="24sp"
+             android:textColor="#000000"
+             android:alpha="0.87"
+             android:layout_toEndOf="@id/pudImage">
+
+         </TextView>
+         <TextView
+             android:layout_marginTop="8dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_toEndOf="@id/pudImage"
+             android:layout_below="@id/pudTitle"
+             android:textColor="#000000"
+             android:alpha="0.60"
+             android:text="Comes with mozzarella filled crusts">
+
+         </TextView>
+
+      </RelativeLayout>
+
+
+
+   </LinearLayout>
+
+   </ScrollView>
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Order Now"
+       android:backgroundTint="#6202EE"
+       android:textColor="#FFFFFF"
+       android:layout_alignParentBottom="true"
+       android:padding="20dp">
+
+   </Button>
+
+
+</RelativeLayout>
